@@ -12,6 +12,9 @@ A simple fan page built with HTML and CSS showcasing Darth Vader, the sith lord 
 
 ## Credits
 This project was created for practice and learning purposes.
+All character rights belong to Lucasfilm / Star Wars
+
 ---
+
 Feel free to contribute or fork if you want to improve it
 Thank you :)
