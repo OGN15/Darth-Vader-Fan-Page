@@ -1,0 +1,132 @@
+body {
+        background: #000;
+        color: #fff;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 1.6;
+      }
+
+      header {
+        padding: 40px 20px;
+        background: linear-gradient(to bottom, #111, #000);
+      }
+
+      header h1 {
+        font-size: 2.5em;
+        color: red;
+        text-shadow: 0 0 10px red;
+      }
+
+      header p {
+        font-style: italic;
+        color: #ccc;
+      }
+
+      section {
+        padding: 40px 20px;
+      }
+
+      h2 {
+        color: red;
+        margin-bottom: 20px;
+        text-shadow: 0 0 5px red;
+      }
+
+      .quote-box {
+        background-color: #111;
+        border: 1px solid red;
+        padding: 15px;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 600px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+      .container img {
+        width: 200px;
+        border: 3px solid red;
+        border-radius: 10px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .container img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px red;
+      }
+
+      .transition-text {
+        margin-top: 20px;
+        font-size: 1.2em;
+        color: #ccc;
+      }
+
+      .transition {
+        margin: 40px 0;
+        font-size: 1.5em;
+        color: red;
+        text-shadow: 0 0 0 5px red;
+      }
+
+      footer {
+        padding: 20px;
+        background-color: #111;
+        color: #777;
+        font-size: 0.9em;
+        border-top: 1px solid red;
+      }
+
+      #anakin-img {
+        border: 3px solid blue;
+      }
+
+      #anakin-img {
+        box-shadow: 0 0 20px blue;
+      }
+
+      .video-container video {
+        max-width: 90%;
+        border: 3px solid red;
+        border-radius: 10px;
+      }
+
+      .vader-audio {
+        padding: 40px 20px;
+      }
+
+      .vader-audio h2 {
+        color: red;
+        margin-bottom: 10px;
+        text-shadow: 0 0 5px red;
+      }
+
+      .vader-audio audio {
+        outline: none;
+        border: 2px solid red;
+        border-radius: 8px;
+        background-color: #111;
+        padding: 5px;
+        width: 300px;
+        max-width: 90%;
+      }
+
+      .quote-link {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .quote-link:hover {
+        background-color: red;
+        color: black;
+        border-radius: 5px;
+      }
